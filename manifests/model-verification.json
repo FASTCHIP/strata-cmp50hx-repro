@@ -1,0 +1,20 @@
+{
+  "revision": "ed59f92082b1e93c0e96d60a8b11aab089b52f09",
+  "files": [
+    {
+      "file": "Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00001-of-00002.gguf",
+      "size": 37623740192,
+      "sha256": "69820c02ec7d0b45ef2ebb19d6620299db749fe2aded7f39f93c6b88b199b720",
+      "elapsed_s": 392.8522476919461,
+      "matches_hub": true
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00002-of-00002.gguf",
+      "size": 28800138432,
+      "sha256": "316b46f3a2dbd68c900f43136ab9449f9dcc3725dfd8c794847c204bc161e113",
+      "elapsed_s": 301.029315300053,
+      "matches_hub": true
+    }
+  ],
+  "verified": true
+}

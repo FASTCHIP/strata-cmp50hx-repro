@@ -1,0 +1,20 @@
+# /etc/systemd/system/strata-qwen.service
+[Unit]
+Description=Strata Qwen3.8-Flash-Next Q2_0 (3x CMP50HX, layer split)
+After=network.target
+
+[Service]
+Type=simple
+User=strata
+WorkingDirectory=/opt/strata
+Environment=STRATA_ARENA_MMAP=1
+Environment=STRATA_BF16_TC=1
+Environment=STRATA_STAGE_TRIM=1
+ExecStart=/opt/strata/.venv/bin/python serve/server.py --engine strata --config /opt/strata/strata-qwen.json --port 8080
+Restart=on-failure
+RestartSec=10
+LimitMEMLOCK=infinity
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

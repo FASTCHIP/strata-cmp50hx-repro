@@ -1,0 +1,34 @@
+{
+  "label": "p32k",
+  "rep": 2,
+  "word_count": 32000,
+  "wall_s": 24.65701043093577,
+  "ttft_s": 17.24179530190304,
+  "at": "2026-10-06T20:33:10.034096+00:00",
+  "response": {
+    "usage": {
+      "prompt_tokens": 32118,
+      "completion_tokens": 512,
+      "total_tokens": 32630,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 32118,
+      "prompt_ms": 16473.8,
+      "prompt_per_token_ms": 0.513,
+      "prompt_per_second": 1949.6,
+      "predicted_n": 512,
+      "predicted_ms": 7432.1,
+      "predicted_per_token_ms": 14.516,
+      "predicted_per_second": 68.9,
+      "draft_n": 461,
+      "draft_n_accepted": 284
+    },
+    "done": true,
+    "reasoning_present": false,
+    "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+  }
+}

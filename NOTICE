@@ -1,0 +1,4 @@
+Upstream: Niko1221/Strata, MIT.
+Pinned source: 6f32ec070f23ced9f50e704d854d775da52591ab.
+The patch includes upstream source context; retain LICENSES/Strata-MIT.txt.
+No GGUF weights, MTP tensors, native packs, upstream source archives or executable binaries are redistributed. Model download and use remain subject to the model publishers' terms.

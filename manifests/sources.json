@@ -1,0 +1,44 @@
+{
+  "strata": {
+    "repository": "https://github.com/Niko1221/Strata",
+    "commit": "6f32ec070f23ced9f50e704d854d775da52591ab",
+    "engine_version": "0.1.39",
+    "binary_sha256": "7436b64d65319b5b7483c15a43fb45e7c12e510ad7be33f036b2bb963b60c5a1",
+    "binary_distributed": false,
+    "local_patch": "patches/verify.patch"
+  },
+  "ggml": {
+    "repository": "https://github.com/ggml-org/llama.cpp",
+    "commit": "3cf03257f219afbe7334045ff7c6a06ac68c627d",
+    "verified_file_count": 1376,
+    "verification": "All observed ggml file contents matched upstream Git blob hashes."
+  },
+  "gguf": {
+    "repository": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+    "revision": "ed59f92082b1e93c0e96d60a8b11aab089b52f09",
+    "directory": "Q2_0",
+    "verification": "manifests/model-verification.json"
+  },
+  "mtp": {
+    "repository": "Qwen/Qwen3.8-Flash-Next",
+    "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+    "revision_status": "Pinned fetch-script default; not a complete independent re-download verification during the audit."
+  },
+  "observed_hashes": {
+    "data/expert-profile.bin_sha256": "8f59b4aa8873209dff11c11e37bcda9529a1335b724a1afeea37bf6388975baf",
+    "src/core/verify.cpp_sha256": "868967dffc3c3386fe4ea1f4b9671f83bee4e554b60a9619c5221199407dcc89",
+    "build/strata_sha256": "7436b64d65319b5b7483c15a43fb45e7c12e510ad7be33f036b2bb963b60c5a1",
+    "packs/qwen20/native_experts.txt_sha256": "015e53d3ae36324f172be4942bcf129539b343e2eb4fcd4f25ca5eff180bfa41",
+    "data/mtp/rt/dense.txt_sha256": "991456cf4eb266eb8a888c349e548d11bc640f5dbd9149439aa9786af0f732fd",
+    "data/mtp/rt/draft_vocab.bin_sha256": "25d7fd1670a2e0ec885868d1718d410a3baab03bceeacf0a156cf93ffe4e1ef4"
+  },
+  "build_observed": {
+    "cuda_toolkit": "12.8",
+    "cuda_architectures": "75",
+    "isa_floor": "avx",
+    "build_type": "Release",
+    "cuda_enabled": true,
+    "tests_enabled": false
+  },
+  "scope": "Information from the existing deployment. No new build, clean install, reboot, MTP-off A/B or release binary."
+}

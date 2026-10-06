@@ -1,0 +1,67 @@
+{
+  "exe": "/opt/strata/build/strata",
+  "args": [
+    "--pack",
+    "/opt/strata/packs/qwen20",
+    "--native",
+    "/srv/models/strata-qwen/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00001-of-00002.gguf",
+    "--ple-gguf",
+    "/srv/models/strata-qwen/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00002-of-00002.gguf",
+    "--expert-profile",
+    "/opt/strata/data/expert-profile.bin",
+    "--expert-cache",
+    "auto",
+    "--trim-stage-weights",
+    "--prefill",
+    "2048",
+    "--spec",
+    "4",
+    "--spec-min-p",
+    "0.5",
+    "--mtp",
+    "/opt/strata/data/mtp/rt",
+    "--max-context",
+    "262144",
+    "--kv",
+    "int8",
+    "--vram-reserve-mib",
+    "600",
+    "--pcie-frac",
+    "0"
+  ],
+  "env": {
+    "STRATA_ARENA_MMAP": "1",
+    "STRATA_BF16_TC": "1",
+    "STRATA_STAGE_TRIM": "1"
+  },
+  "cwd": "/opt/strata",
+  "tokenizer": "/opt/strata/packs/qwen20/tokenizer",
+  "model_name": "qwen3.8-flash-next",
+  "log": "/opt/strata/strata-qwen.log",
+  "lib_dirs": [
+    "/usr/local/cuda-12.8/lib64"
+  ],
+  "port": 8080,
+  "host": "127.0.0.1",
+  "gpu": [
+    0,
+    1,
+    2
+  ],
+  "layer_split": "16,32",
+  "fit_max_tokens": true,
+  "reasoning_budget_tokens": 8192,
+  "anthropic_thinking": "on_request",
+  "effort_position": "end",
+  "aliases": "strata,coder,qwen3-coder",
+  "api_monitor": false,
+  "engine_silence_s": 600,
+  "open_browser": false,
+  "parallel": 2,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 32,
+    "min_p": 0.02
+  }
+}

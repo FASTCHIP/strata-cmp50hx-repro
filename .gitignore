@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+build/
+run-output/
+*.gguf
+*.bin
+*.safetensors
+*.tar
+*.log

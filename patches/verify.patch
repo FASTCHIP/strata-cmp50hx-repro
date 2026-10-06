@@ -1,0 +1,31 @@
+diff --git a/src/core/verify.cpp b/src/core/verify.cpp
+index dd5362b..d50153d 100644
+--- a/src/core/verify.cpp
++++ b/src/core/verify.cpp
+@@ -1967,6 +1967,13 @@ bool Verifier::run_slot_rows(const int* rows, int S, const int32_t* tokens, cons
+     volatile uint32_t* const seq = h_seq_;
+     volatile uint32_t* const flag = h_flag_;
+     const int64_t steps = le_ - lb_;
++    // #776 / #792: a stage that holds every expert in VRAM records the zero-doorbell graph (#646): it rings no
++    // per-layer seq, so the host releases the PLE flag the graph's first wait reads (stage_batch gathered the
++    // rows) and the stream sync below does the waiting.  Without this the batch window spun on a ring nothing
++    // rings until the 20 s timeout ended the engine.
++    if (all_resident_) {
++        *flag = 1;
++    } else
+     for (int64_t k = 0; k < steps; ++k) {
+         const int64_t l = lb_ + k;
+         const uint32_t want = (uint32_t) (k + 1);
+@@ -2079,8 +2086,11 @@ bool Verifier::batch_launch(int base, int S, const int32_t* tokens, const int64_
+             sx.ple_prev[1] = tokens[t];
+         }
+     b_running_ = true;
+-    b_k_ = 0;
+     b_steps_ = le_ - lb_;
++    // #776 / #792: an all-resident stage's graph rings no per-layer seq; release its PLE wait and let batch_poll
++    // only poll the stream.
++    if (all_resident_) *(volatile uint32_t*) h_flag_ = 1;
++    b_k_ = all_resident_ ? b_steps_ : 0;
+     b_last_ = Clock::now();
+     return true;
+ }

@@ -1,0 +1,73 @@
+{
+  "wall_s": 21.87369942944497,
+  "results": [
+    {
+      "label": "parallel-extra",
+      "rep": 4,
+      "word_count": 4000,
+      "wall_s": 20.541765760164708,
+      "ttft_s": 3.6790736471302807,
+      "at": "2026-10-06T20:39:05.378240+00:00",
+      "response": {
+        "usage": {
+          "prompt_tokens": 4119,
+          "completion_tokens": 512,
+          "total_tokens": 4631,
+          "prompt_tokens_details": {
+            "cached_tokens": 4120
+          }
+        },
+        "timings": {
+          "cache_n": 4120,
+          "prompt_n": 0,
+          "prompt_ms": 0.0,
+          "prompt_per_token_ms": null,
+          "prompt_per_second": null,
+          "predicted_n": 512,
+          "predicted_ms": 16582.4,
+          "predicted_per_token_ms": 32.515,
+          "predicted_per_second": 30.8,
+          "draft_n": 0,
+          "draft_n_accepted": 0
+        },
+        "done": true,
+        "reasoning_present": false,
+        "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+      }
+    },
+    {
+      "label": "parallel-extra",
+      "rep": 5,
+      "word_count": 4000,
+      "wall_s": 21.86605763202533,
+      "ttft_s": 10.520920695737004,
+      "at": "2026-10-06T20:39:06.704774+00:00",
+      "response": {
+        "usage": {
+          "prompt_tokens": 4117,
+          "completion_tokens": 512,
+          "total_tokens": 4629,
+          "prompt_tokens_details": {
+            "cached_tokens": 4517
+          }
+        },
+        "timings": {
+          "cache_n": 4517,
+          "prompt_n": 0,
+          "prompt_ms": 236.9,
+          "prompt_per_token_ms": null,
+          "prompt_per_second": null,
+          "predicted_n": 512,
+          "predicted_ms": 1043.1,
+          "predicted_per_token_ms": 9.397,
+          "predicted_per_second": 106.4,
+          "draft_n": 84,
+          "draft_n_accepted": 82
+        },
+        "done": true,
+        "reasoning_present": false,
+        "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+      }
+    }
+  ]
+}

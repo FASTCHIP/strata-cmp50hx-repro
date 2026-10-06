@@ -1,0 +1,73 @@
+{
+  "wall_s": 23.092952439095825,
+  "results": [
+    {
+      "label": "parallel",
+      "rep": 0,
+      "word_count": 4000,
+      "wall_s": 21.00853186706081,
+      "ttft_s": 3.9071513479575515,
+      "at": "2026-10-06T20:38:08.909157+00:00",
+      "response": {
+        "usage": {
+          "prompt_tokens": 4119,
+          "completion_tokens": 512,
+          "total_tokens": 4631,
+          "prompt_tokens_details": {
+            "cached_tokens": 4120
+          }
+        },
+        "timings": {
+          "cache_n": 4120,
+          "prompt_n": 0,
+          "prompt_ms": 0.0,
+          "prompt_per_token_ms": null,
+          "prompt_per_second": null,
+          "predicted_n": 512,
+          "predicted_ms": 16829.3,
+          "predicted_per_token_ms": 32.999,
+          "predicted_per_second": 30.3,
+          "draft_n": 0,
+          "draft_n_accepted": 0
+        },
+        "done": true,
+        "reasoning_present": false,
+        "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+      }
+    },
+    {
+      "label": "parallel",
+      "rep": 1,
+      "word_count": 4000,
+      "wall_s": 23.085553302895278,
+      "ttft_s": 10.841360936872661,
+      "at": "2026-10-06T20:38:10.987657+00:00",
+      "response": {
+        "usage": {
+          "prompt_tokens": 4118,
+          "completion_tokens": 512,
+          "total_tokens": 4630,
+          "prompt_tokens_details": {
+            "cached_tokens": 4519
+          }
+        },
+        "timings": {
+          "cache_n": 4519,
+          "prompt_n": 0,
+          "prompt_ms": 238.0,
+          "prompt_per_token_ms": null,
+          "prompt_per_second": null,
+          "predicted_n": 512,
+          "predicted_ms": 1751.4,
+          "predicted_per_token_ms": 15.922,
+          "predicted_per_second": 62.8,
+          "draft_n": 106,
+          "draft_n_accepted": 50
+        },
+        "done": true,
+        "reasoning_present": false,
+        "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+      }
+    }
+  ]
+}

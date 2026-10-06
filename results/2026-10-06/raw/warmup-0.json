@@ -1,0 +1,33 @@
+{
+  "label": "warmup",
+  "rep": 0,
+  "word_count": 64,
+  "wall_s": 9.320064587984234,
+  "ttft_s": null,
+  "at": "2026-10-06T20:30:58.957801+00:00",
+  "response": {
+    "usage": {
+      "prompt_tokens": 183,
+      "completion_tokens": 512,
+      "total_tokens": 695,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 183,
+      "prompt_ms": 1310.7,
+      "prompt_per_token_ms": 7.162,
+      "prompt_per_second": 139.6,
+      "predicted_n": 512,
+      "predicted_ms": 7895.9,
+      "predicted_per_token_ms": 15.422,
+      "predicted_per_second": 64.8,
+      "draft_n": 486,
+      "draft_n_accepted": 278
+    },
+    "reasoning_present": false,
+    "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+  }
+}

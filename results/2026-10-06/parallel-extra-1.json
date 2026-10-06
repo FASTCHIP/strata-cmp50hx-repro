@@ -1,0 +1,73 @@
+{
+  "wall_s": 22.632682488299906,
+  "results": [
+    {
+      "label": "parallel-extra",
+      "rep": 2,
+      "word_count": 4000,
+      "wall_s": 20.700804467778653,
+      "ttft_s": 3.7504747258499265,
+      "at": "2026-10-06T20:38:42.900028+00:00",
+      "response": {
+        "usage": {
+          "prompt_tokens": 4118,
+          "completion_tokens": 512,
+          "total_tokens": 4630,
+          "prompt_tokens_details": {
+            "cached_tokens": 4119
+          }
+        },
+        "timings": {
+          "cache_n": 4119,
+          "prompt_n": 0,
+          "prompt_ms": 0.0,
+          "prompt_per_token_ms": null,
+          "prompt_per_second": null,
+          "predicted_n": 512,
+          "predicted_ms": 16670.2,
+          "predicted_per_token_ms": 32.687,
+          "predicted_per_second": 30.6,
+          "draft_n": 0,
+          "draft_n_accepted": 0
+        },
+        "done": true,
+        "reasoning_present": false,
+        "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+      }
+    },
+    {
+      "label": "parallel-extra",
+      "rep": 3,
+      "word_count": 4000,
+      "wall_s": 22.625831068027765,
+      "ttft_s": 10.649048391729593,
+      "at": "2026-10-06T20:38:44.826673+00:00",
+      "response": {
+        "usage": {
+          "prompt_tokens": 4118,
+          "completion_tokens": 512,
+          "total_tokens": 4630,
+          "prompt_tokens_details": {
+            "cached_tokens": 4518
+          }
+        },
+        "timings": {
+          "cache_n": 4518,
+          "prompt_n": 0,
+          "prompt_ms": 236.7,
+          "prompt_per_token_ms": null,
+          "prompt_per_second": null,
+          "predicted_n": 512,
+          "predicted_ms": 1628.1,
+          "predicted_per_token_ms": 14.668,
+          "predicted_per_second": 68.2,
+          "draft_n": 111,
+          "draft_n_accepted": 59
+        },
+        "done": true,
+        "reasoning_present": false,
+        "evidence_kind": "Original numerical fields; generated output and identifiers omitted."
+      }
+    }
+  ]
+}
