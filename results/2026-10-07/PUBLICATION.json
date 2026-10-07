@@ -1,0 +1,144 @@
+{
+  "scope": "Completed tuning publication, not new build or service change. Historical original audit manifest remains at root PUBLICATION.json.",
+  "prepared_at_utc": "2026-10-07T05:40:01.068279+00:00",
+  "repository": "FASTCHIP/strata-cmp50hx-repro",
+  "checks": {
+    "numeric_summary_equal_to_original_after_removal_of_run_ids": true,
+    "offline_measured_rows": {
+      "screen": 162,
+      "long": 4,
+      "concurrent": 6
+    },
+    "published_raw_rows": 184,
+    "unit_tests_passed": 15,
+    "private_address_secret_uuid_scan": true,
+    "relative_markdown_links": true
+  },
+  "changed_files_excluding_this_manifest": [
+    {
+      "path": "README.md",
+      "bytes": 8576,
+      "sha256": "8c1cccc66034fd925cc3279ae0e07a4a75e1eaa85e85a33542177f9650e19a77"
+    },
+    {
+      "path": "docs/TUNING-2026-10-07.md",
+      "bytes": 8298,
+      "sha256": "ce15444cf1b51e5d128924498809fecd948d2a37c39d584628e60f128e08b4d3"
+    },
+    {
+      "path": "docs/TUNING-METHODS.md",
+      "bytes": 8827,
+      "sha256": "1da190f0ff51b4ad2fd5b430aa03a11dc1ba2336224e49fc6ca29fe03c74dda0"
+    },
+    {
+      "path": "results/2026-10-07/D2-screen.jsonl",
+      "bytes": 15509,
+      "sha256": "5cd78a19ac8a26ee5176183c2a53e681096534ffbed4410ad42f6695fc8ccd86"
+    },
+    {
+      "path": "results/2026-10-07/D3-screen.jsonl",
+      "bytes": 15513,
+      "sha256": "bed73056bb16b0b41953193ae0684c54f05721039e30ceb0977c5e5e12618441"
+    },
+    {
+      "path": "results/2026-10-07/D6-screen.jsonl",
+      "bytes": 15512,
+      "sha256": "2d2be96a6cb4e7787489ea88db5675c3c4b8fc514dbdd23c96ded8aa2b5ae236"
+    },
+    {
+      "path": "results/2026-10-07/L-screen.jsonl",
+      "bytes": 15497,
+      "sha256": "b2a8c060e2fa215e8eaef52d85f835751c1010090f0404d2308476b1b86bdffd"
+    },
+    {
+      "path": "results/2026-10-07/P1-concurrent.jsonl",
+      "bytes": 2143,
+      "sha256": "5b620eb438e832e0589a8069756989ac4dbcc1bfa4d52003baf310a4841bf4f8"
+    },
+    {
+      "path": "results/2026-10-07/P1-long.jsonl",
+      "bytes": 1652,
+      "sha256": "0958352ab7b970ecbed57af65dbdefc24035ee90aa4ac471850001766826cfbf"
+    },
+    {
+      "path": "results/2026-10-07/P1-screen.jsonl",
+      "bytes": 15513,
+      "sha256": "bff9204683956ad92cb0641c153726a1396bbab72133f623c8eb7505f5f21f7f"
+    },
+    {
+      "path": "results/2026-10-07/P4-screen.jsonl",
+      "bytes": 15514,
+      "sha256": "10618360cbe0aa62bf27d1a5538846ca2705e9f0334258507d64810d541e3a88"
+    },
+    {
+      "path": "results/2026-10-07/R-concurrent.jsonl",
+      "bytes": 2141,
+      "sha256": "5058f9c8269d8921762df9de1cfcdbd0c746357b66e6d65c0a093f872c73e068"
+    },
+    {
+      "path": "results/2026-10-07/R-long.jsonl",
+      "bytes": 1651,
+      "sha256": "08149cfec4adcfd0ed637569ab179de011ddbca6d777dab95e00f34d01218544"
+    },
+    {
+      "path": "results/2026-10-07/R-screen.jsonl",
+      "bytes": 15497,
+      "sha256": "ad15d64a8f364d64272db52071894ac3460ba99df6035fe814d31a953cff80ea"
+    },
+    {
+      "path": "results/2026-10-07/T8-screen.jsonl",
+      "bytes": 15515,
+      "sha256": "201701a3a61dca1c1877436dbf07bcaa87dbc65b9b31e3f6b1841c56d5eb8902"
+    },
+    {
+      "path": "results/2026-10-07/Z-concurrent.jsonl",
+      "bytes": 2140,
+      "sha256": "bbe0d5998cb73862aa26d5d2c96dac32e3389fb753b538b45c950f0b89be2cc4"
+    },
+    {
+      "path": "results/2026-10-07/Z-screen.jsonl",
+      "bytes": 15428,
+      "sha256": "596625cbd74291a0a7a1ad8f95f0913b1e140c1c5297e7480e4613f0daf65c6b"
+    },
+    {
+      "path": "results/2026-10-07/completion.json",
+      "bytes": 494,
+      "sha256": "6f5e33096deebdf2ce1b0f6a816b6a49ff59e5f5cea079d7779b61199db26fde"
+    },
+    {
+      "path": "results/2026-10-07/profiles.json",
+      "bytes": 1476,
+      "sha256": "f1658efaa6843bdf9b99924d6e5d66c2175baff1e68ebb5ff1e37f66be77e689"
+    },
+    {
+      "path": "results/2026-10-07/summary.json",
+      "bytes": 32722,
+      "sha256": "cf379fc76e2551d8c0b86afa263578cdfae8998fe6e136ba1b90cf6cb78f2fa0"
+    },
+    {
+      "path": "tools/tuning/aggregate.py",
+      "bytes": 2638,
+      "sha256": "e58813b4483b079ec1662ad5a3aaf8378318e9f4b07cf8e210d4833c354fa652"
+    },
+    {
+      "path": "tools/tuning/bench.py",
+      "bytes": 15685,
+      "sha256": "d3576258f3c6674ee27c927c2e117a0da4c4183a5ae81b61c7d6f41fd8e2b881"
+    },
+    {
+      "path": "tools/tuning/make_fixtures.py",
+      "bytes": 10493,
+      "sha256": "461150e149bdc4fa34a071647ae53a1f5ac8dc779dfdddbcdbd04eff17eed619"
+    },
+    {
+      "path": "tools/tuning/tests/test_bench.py",
+      "bytes": 12671,
+      "sha256": "131ee7bda927e7807d11fe835bea4a4d608bf6b62b01c9d4d4fc65c6ab327224"
+    },
+    {
+      "path": "tools/tuning/tests/test_make_fixtures.py",
+      "bytes": 5309,
+      "sha256": "fede4546c2a66ed87f3e5fe9b03382761066f7e60012581a97d669251f204ece"
+    }
+  ]
+}

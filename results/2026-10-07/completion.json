@@ -1,0 +1,15 @@
+{
+  "start_utc": "2026-10-06T22:08:50.649727+00:00",
+  "end_utc": "2026-10-06T23:43:55.387966+00:00",
+  "complete": true,
+  "restored_at_completion": true,
+  "original_promoted": false,
+  "restoration_verified": true,
+  "raw_record_count": 184,
+  "counts": {
+    "screen": 162,
+    "long": 4,
+    "concurrent": 6
+  },
+  "note": "Restoration is historical completion evidence, not current service status. Private logs, addresses, UUIDs, generated content and process control scripts omitted."
+}

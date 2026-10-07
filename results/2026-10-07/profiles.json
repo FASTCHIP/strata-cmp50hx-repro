@@ -1,0 +1,65 @@
+{
+  "R": {
+    "--spec": "4",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "default (flag omitted)",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "2048"
+  },
+  "T8": {
+    "--spec": "4",
+    "--spec-min-p": "0.8",
+    "--suffix-draft": "default (flag omitted)",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "2048"
+  },
+  "L": {
+    "--spec": "4",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "0",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "2048"
+  },
+  "D2": {
+    "--spec": "2",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "0",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "2048"
+  },
+  "D3": {
+    "--spec": "3",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "0",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "2048"
+  },
+  "D6": {
+    "--spec": "6",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "0",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "2048"
+  },
+  "P1": {
+    "--spec": "4",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "default (flag omitted)",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "1024"
+  },
+  "P4": {
+    "--spec": "4",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "default (flag omitted)",
+    "--mtp-max-t": "default (flag omitted)",
+    "--prefill": "4096"
+  },
+  "Z": {
+    "--spec": "2",
+    "--spec-min-p": "0.5",
+    "--suffix-draft": "0",
+    "--mtp-max-t": "1",
+    "--prefill": "2048"
+  }
+}
