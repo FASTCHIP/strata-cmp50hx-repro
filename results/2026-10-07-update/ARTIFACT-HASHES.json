@@ -1,0 +1,11 @@
+{
+  "method": "direct remote sha256sum after campaign completion",
+  "sha256": {
+    "old_engine": "7436b64d65319b5b7483c15a43fb45e7c12e510ad7be33f036b2bb963b60c5a1",
+    "saved_baseline_engine": "7436b64d65319b5b7483c15a43fb45e7c12e510ad7be33f036b2bb963b60c5a1",
+    "new_engine": "78af68133debebc7a5c365a30fa04909d9f832c80350f65510f053e1307db6d9"
+  },
+  "baseline_unchanged": true,
+  "new_engine_matches_campaign": true,
+  "archives_match_transfer_hashes": true
+}

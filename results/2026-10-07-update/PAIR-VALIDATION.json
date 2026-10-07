@@ -1,0 +1,19 @@
+{
+  "matching_keys": true,
+  "identical_request_bodies": true,
+  "identical_generated_text": false,
+  "both_loaded_idle": true,
+  "both_no_restarts": true,
+  "different_text_cases": [
+    {
+      "key": [
+        "concurrent",
+        "p4k_prose",
+        0
+      ],
+      "old_completion_tokens": 256,
+      "new_completion_tokens": 256
+    }
+  ],
+  "text_equality_not_acceptance_gate": true
+}

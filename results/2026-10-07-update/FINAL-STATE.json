@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-07T23:09:30+03:00",
+  "verified": true,
+  "checks": {
+    "campaign_ok": true,
+    "supervisor_stopped": true,
+    "strata_units_no_pid": true,
+    "no_strata_processes": true,
+    "miner_active": true,
+    "four_gpu_workers": true,
+    "fresh_shares": true,
+    "kernel_read_ok": true,
+    "no_kernel_errors": true,
+    "tokenizer_import_ok": true,
+    "correct_installed_unit": true,
+    "correct_profile": true,
+    "correct_engine_hash": true,
+    "rescue_inactive": true,
+    "raw_counts_correct": true,
+    "all_raw_valid": true
+  },
+  "units": {
+    "selected_service": {
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Result": "success",
+      "NRestarts": "0",
+      "process_running": false
+    },
+    "historical_service": {
+      "ActiveState": "failed",
+      "SubState": "failed",
+      "Result": "exit-code",
+      "NRestarts": "0",
+      "process_running": false
+    },
+    "test_service": {
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Result": "success",
+      "NRestarts": "0",
+      "process_running": false
+    },
+    "supervisor": {
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Result": "success",
+      "NRestarts": "0",
+      "process_running": false
+    },
+    "miner": {
+      "ActiveState": "active",
+      "SubState": "running",
+      "Result": "success",
+      "NRestarts": "0",
+      "process_running": true
+    },
+    "rescue_timer": {
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Result": "success"
+    }
+  },
+  "miner_workers": 4,
+  "fresh_accepted_share_count": 12,
+  "strata_process_count": 0,
+  "kernel_error_count": 0,
+  "selected_engine_sha256": "78af68133debebc7a5c365a30fa04909d9f832c80350f65510f053e1307db6d9",
+  "baseline_engine_sha256": "7436b64d65319b5b7483c15a43fb45e7c12e510ad7be33f036b2bb963b60c5a1",
+  "tested_separate_unit": true,
+  "selected_service_post_install_smoke": false,
+  "arms": [
+    {
+      "label": "old",
+      "ok": true,
+      "engine": "0.1.39",
+      "loaded": true,
+      "in_flight": 0,
+      "requests": 23
+    },
+    {
+      "label": "new",
+      "ok": true,
+      "engine": "0.1.40.3",
+      "loaded": true,
+      "in_flight": 0,
+      "requests": 23
+    }
+  ]
+}
